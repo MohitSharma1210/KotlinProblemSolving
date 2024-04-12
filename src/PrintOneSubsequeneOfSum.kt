@@ -10,7 +10,6 @@ fun oneSubsequence(i:Int,arr:Array<Int>,list: MutableList<Int>,n:Int,target:Int,
     if (i == n){
         if(target == sum){
             println(list)
-            println(list)
             return true
         }
         return false
