@@ -23,9 +23,12 @@ fun swap(l:Int,r:Int,array: Array<Int>){
 
 fun main(){
 var array = arrayOf(1,2,3,4,5)
- reverse(0,array.size-1,array)
     reverse1(0,array.size,array)
+
     println(array.contentToString())
+
+    println(array)
+
 }
 
 
